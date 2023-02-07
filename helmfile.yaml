@@ -8,4 +8,4 @@ releases:
   chart: prometheus-community/prometheus
   set:
   - name: rbac.create
-    value: false
+    value: true
