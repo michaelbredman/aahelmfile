@@ -16,8 +16,8 @@ resource "harness_platform_triggers" "aa_new_schedule" {
   identifier = "identifier"
   org_id     = "SE_Sandbox"
   project_id = "Redman_Sandbox"
-  name       = "Automation Anywhere Deployment Schedule"
-  target_id  = "Automation_Anywhere_Deployment_Schedule"
+  name       = "Automation Anywhere Helmfile Sync"
+  target_id  = "Automation_Anywhere_Helmfile_Sync"
   yaml       = <<-EOT
     trigger:
       name: Cron Trigger One
@@ -26,7 +26,7 @@ resource "harness_platform_triggers" "aa_new_schedule" {
       tags: {}
       orgIdentifier: SE_Sandbox
       projectIdentifier: Redman_Sandbox
-      pipelineIdentifier: Automation_Anywhere_Deployment_Schedule
+      pipelineIdentifier: Automation_Anywhere_Helmfile_Sync
       source:
         type: Scheduled
         spec:
