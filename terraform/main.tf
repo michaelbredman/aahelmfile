@@ -12,7 +12,7 @@ provider "harness" {
   platform_api_key = "pat.6_vVHzo9Qeu9fXvj-AcbCQ.63ce3497b4c691598d33502c.J0cwA1KIyTwteoHasvS8"
 }
 # Automation Anywhere Schedule
-resource "harness_platform_triggers" "aa_schedule" {
+resource "harness_platform_triggers" "aa_new_schedule" {
   identifier = "identifier"
   org_id     = "SE_Sandbox"
   project_id = "Redman_Sandbox"
