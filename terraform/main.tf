@@ -12,16 +12,16 @@ provider "harness" {
   platform_api_key = "pat.6_vVHzo9Qeu9fXvj-AcbCQ.63ce3497b4c691598d33502c.J0cwA1KIyTwteoHasvS8"
 }
 # Automation Anywhere Schedule
-resource "harness_platform_triggers" "aa_new_schedule" {
+resource "harness_platform_triggers" "example" {
   identifier = "identifier"
   org_id     = "SE_Sandbox"
   project_id = "Redman_Sandbox"
-  name       = "Automation Anywhere Helmfile Sync"
+  name       = "ron Trigger One"
   target_id  = "Automation_Anywhere_Helmfile_Sync"
   yaml       = <<-EOT
     trigger:
       name: Cron Trigger One
-      identifier: Cron_Trigger_One
+      identifier: "identifier"
       enabled: false
       tags: {}
       orgIdentifier: SE_Sandbox
