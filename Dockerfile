@@ -10,4 +10,8 @@ RUN mv kubectl /opt/harness-delegate/tools/
 RUN wget https://github.com/helmfile/helmfile/releases/download/v0.150.0/helmfile_0.150.0_linux_amd64.tar.gz
 RUN tar -xvf helmfile_0.150.0_linux_amd64.tar.gz
 RUN mv helmfile /opt/harness-delegate/tools/
+RUN curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+RUN chmod 700 get_helm.sh
+RUN ./get_helm.sh
+RUN microdnf install git
 ENV PATH=/opt/harness-delegate/tools/:$PATH
