@@ -42,7 +42,7 @@ resource "harness_platform_triggers" "aa_schedule" {
                 build:
                   type: branch
                   spec:
-                    branch: main                  
+                    branch: main
     EOT
 }
 # Automation Anywhere Schedule 2
