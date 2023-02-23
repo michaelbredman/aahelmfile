@@ -36,6 +36,10 @@ resource "harness_platform_triggers" "aa_schedule" {
       inputYaml: |
         pipeline:
           identifier: Automation_Anywhere_Helmfile_Sync
+          variables:
+            - name: region
+              type: String
+              value: us-west-1
           properties:
             ci:
               codebase:
