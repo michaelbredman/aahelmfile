@@ -32,7 +32,7 @@ resource "harness_platform_triggers" "aa_schedule" {
         spec:
           type: Cron
           spec:
-            expression: "18 06 9 3 *"
+            expression: "27 06 9 3 *"
       inputYaml: |
         pipeline:
           identifier: Automation_Anywhere_Helmfile_Deployment
@@ -59,7 +59,7 @@ resource "harness_platform_triggers" "aa_schedule_one" {
         spec:
           type: Cron
           spec:
-            expression: "18 06 10 3 *"
+            expression: "27 06 10 3 *"
       inputYaml: |
         pipeline:
           identifier: Automation_Anywhere_Helmfile_Deployment
