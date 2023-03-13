@@ -1,16 +1,10 @@
 repositories:
  - name: apache
    url: https://charts.bitnami.com/bitnami
- - name: nginx
-   url: https://charts.bitnami.com/bitnami
 
 releases:
 - name: apache
   namespace: lamp
   chart: bitnami/apache
-  version: 9.2.10
-- name: nginx
-  namespace: lamp
-  chart: bitnami/nginx
   
 
