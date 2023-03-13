@@ -1,7 +1,7 @@
 repositories:
  - name: apache
    url: https://charts.bitnami.com/bitnami
- - name: mysql
+ - name: nginx
    url: https://charts.bitnami.com/bitnami
 
 releases:
