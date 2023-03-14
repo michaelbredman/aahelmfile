@@ -6,4 +6,4 @@ releases:
 - name: nginx
   namespace: lamp
   chart: bitnami/nginx
-  version: 1.23.1
+  version: 13.2.27
