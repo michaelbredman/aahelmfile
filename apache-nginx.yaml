@@ -6,7 +6,7 @@ releases:
 - name: nginx
   namespace: lamp
   chart: bitnami/nginx
-  version: 13.2.27
+  version: 13.2.28
 - name: apache
   namespace: lamp
   chart: bitnami/apache
